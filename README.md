@@ -1,5 +1,64 @@
-# Vue 3 + TypeScript + Vite
+# File Manager
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple file manager application built with Vue 3, TypeScript, and Vite.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Features
+
+- Browse folders and files in a tree structure
+- View file details
+- Navigate through directory hierarchy
+
+## Tech Stack
+
+- Vue 3 with Composition API
+- TypeScript
+- Vite
+- Pinia for state management
+- Tailwind CSS for styling
+- Axios for API requests
+- Bun as package manager
+
+## Project Structure
+
+The project follows a clean architecture approach:
+- `components/`: Reusable UI components
+- `config/`: Configuration files
+- `domain/`: Domain models and entities
+- `infrastructure/`: API and external services
+- `store/`: Pinia stores for state management
+- `usecases/`: Business logic
+- `views/`: Page components
+
+## Getting Started
+
+### Prerequisites
+
+- [Bun](https://bun.sh/) package manager
+
+### Installation
+
+```bash
+# Install dependencies
+bun install
+```
+
+### Development
+
+```bash
+# Start development server
+bun run dev
+```
+
+### Build
+
+```bash
+# Build for production
+bun run build
+```
+
+### Preview
+
+```bash
+# Preview production build
+bun run preview
+```
