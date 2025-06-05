@@ -1,9 +1,6 @@
 <template>
   <div class="grid grid-cols-2 p-4">
     <h2 class="text-4xl font-bold">File Manager</h2>
-    <div class="flex justify-end">
-      <button class="text-white bg-blue-700 hover:bg-blue-800">Add Folder</button>
-    </div>
   </div>
   <div class="grid grid-cols-4 gap-4 p-4">
     <div class="sidebar">
